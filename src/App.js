@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        <AppRoutes />
+      </div>
+    
+    </>
   );
 }
 
 export default App;
+// AIzaSyBjodc1LpODPELXVjg2iPoXsMFVrJHkUbU  
+// {/* <script async src="https://cse.google.com/cse.js?cx=73f1ba8f6299d47de">
+// </script>
+// <div class="gcse-search"></div> */}
